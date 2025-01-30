@@ -1,0 +1,42 @@
+/* This is the custom CSS file for the application */
+
+body {
+    background-color: steelblue !important;
+    
+}
+
+.navbar {
+    background-color: midnightblue !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 50 !important;
+    width: 100% !important;
+    height: 50px !important;
+  }
+  
+.nav-link {
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 0.5rem 1rem !important;
+    height: 50px !important;
+    margin-left: 10px !important;
+    cursor: pointer !important;
+  }
+
+.card {
+  margin-top: 90px;
+
+}
+
+.total-price {
+  margin-top: 45px;
+  margin-left: 70%;
+  position: fixed;
+  background-attachment: scroll;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px;
+  z-index: 999;
+}
